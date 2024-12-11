@@ -1,0 +1,101 @@
+.homeContainers {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start;
+  width: 100%;
+  padding: 20px;
+  font-family: Roboto;
+  height: 100vh;
+}
+
+.containing {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 20px;
+  width: 40%;
+  height: 100vh;
+  margin: 0px;
+}
+
+.containers {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 30px;
+  width: 25%;
+  height: 60vh;
+  margin: 40px;
+  background-color: #ffffff;
+  background-size: cover;
+  box-shadow: 1px 1px 5px 5px #e6f6ff;
+  border-radius: 5px;
+  border: none;
+}
+
+.clotheImgs {
+  width: 100%;
+  height: 50vh;
+  margin-top: 130px;
+}
+
+.clothesHead {
+  font-size: 50px;
+  font-weight: 600;
+}
+
+.paraCloth {
+  color: #64748b;
+  font-size: 23px;
+  font-weight: 400;
+}
+
+.btnShowNow {
+  color: #ffffff;
+  background-color: #0967d2;
+  font-weight: 600;
+  width: 150px;
+  height: 36px;
+  border: none;
+  border-radius: 5px;
+}
+
+.logoImgs {
+  width: 200px;
+  height: 50px;
+  align-self: center;
+  margin-bottom: 30px;
+  margin-top: 60px;
+}
+
+.labelStl {
+  font-size: 20px;
+  font-weight: 500;
+  color: #475569;
+}
+
+.inputSlt {
+  width: 170%;
+  height: 38px;
+  padding-left: 15px;
+  font-weight: 500;
+  background-color: #d7dfe9;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+}
+
+.btnSubmit {
+  width: 178%;
+  height: 38px;
+  padding-left: 10px;
+  font-weight: 600;
+  background-color: #0967d2;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}

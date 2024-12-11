@@ -1,0 +1,41 @@
+.mainHeader {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-left: 20px;
+  margin-right: 20px;
+  height: 10vh;
+  font-family: Roboto;
+}
+
+.mainHeaders {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 30%;
+  color: #475569;
+  font-weight: 500;
+}
+
+.logoImg {
+  width: 200px;
+  height: 40px;
+}
+
+.linkStl {
+  text-decoration: none;
+  color: #475569;
+}
+
+.btnLogout {
+  background-color: #0b69ff;
+  color: #ffffff;
+  width: 100px;
+  height: 35px;
+  border: none;
+  border-radius: 5px;
+  font-weight: 600;
+}
